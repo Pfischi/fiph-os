@@ -4,7 +4,7 @@ name: fiph-os
 description: Personal OS image. Based on aurora-dx with some minor adjustments
 
 base-image: ghcr.io/ublue-os/aurora-dx
-image-version: latest
+image-version: stable-daily
 
 modules:
   - type: dnf
