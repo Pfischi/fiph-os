@@ -12,10 +12,12 @@ modules:
       copr:
         - varlad/zellij
         - errornointernet/klassy
+        - deltacopy/darkly
     install:
       packages:
         - zellij
         - klassy
+        - darkly
     remove:
       packages:
         - tailscale
