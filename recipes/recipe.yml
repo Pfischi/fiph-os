@@ -21,5 +21,8 @@ modules:
     remove:
       packages:
         - tailscale
+  - type: script
+    scripts:
+      - plasma.sh
 
   - type: signing
