@@ -7,6 +7,9 @@ base-image: ghcr.io/ublue-os/aurora-dx
 image-version: stable
 
 modules:
+  - type: script
+    snippets:
+      - "cat /usr/lib/dnf/plugins/copr.vendor.conf"
   - type: dnf
     repos:
       copr:
