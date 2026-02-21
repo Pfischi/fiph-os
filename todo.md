@@ -4,6 +4,8 @@
 
 [Shell - Get latest release from GitHub ](https://gist.github.com/lukechilds/a83e1d7127b78fef38c2914c4ececc3c)
 
+https://docs.github.com/en/rest/releases/releases?apiVersion=2022-11-28#get-the-latest-release
+
 # Zellij
 
 - install: github release

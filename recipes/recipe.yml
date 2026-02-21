@@ -9,13 +9,13 @@ image-version: stable-daily
 modules:
   - type: dnf
     repos:
+      files:
+       - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_%OS_VERSION%/home:paulmcauley.repo
       copr:
-        - varlad/zellij
-        - errornointernet/klassy
         - deltacopy/darkly
+      cleanup: true
     install:
       packages:
-        - zellij
         - klassy
         - darkly
     remove:
@@ -23,7 +23,12 @@ modules:
         - tailscale
   - type: script
     scripts:
-      - plasma.sh
-      - plasmoid.sh
-
+      - panel-colorizer.sh
+      - kwin_geometry.sh
+    secrets:
+      - type: env
+        name: GITHUB_TOKEN
+        mount: 
+          type: env
+          name: GITHUB_TOKEN
   - type: signing
