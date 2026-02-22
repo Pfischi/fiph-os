@@ -10,7 +10,7 @@ modules:
   - type: dnf
     repos:
       files:
-       - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_%OS_VERSION%/home:paulmcauley.repo
+        - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_%OS_VERSION%/home:paulmcauley.repo
       copr:
         - deltacopy/darkly
       cleanup: true
@@ -28,7 +28,7 @@ modules:
     secrets:
       - type: env
         name: GITHUB_TOKEN
-        mount: 
+        mount:
           type: env
           name: GITHUB_TOKEN
   - type: signing
