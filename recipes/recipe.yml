@@ -31,4 +31,9 @@ modules:
         mount:
           type: env
           name: GITHUB_TOKEN
+  - type: fonts
+    fonts:
+      url-fonts:
+        - name: Maple Mono
+          url: https://github.com/Pfischi/maple-font-custom/releases/latest/download/MapleMono-NF.zip
   - type: signing
