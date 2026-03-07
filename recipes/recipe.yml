@@ -25,6 +25,7 @@ modules:
     scripts:
       - panel-colorizer.sh
       - kwin_geometry.sh
+      - mousetiler.sh
     secrets:
       - type: env
         name: GITHUB_TOKEN
