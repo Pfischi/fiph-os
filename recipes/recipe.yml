@@ -18,6 +18,9 @@ modules:
       packages:
         - klassy
         - darkly
+        - plasma-oxygen
+        - oxygen-icon-theme
+        - oxygen-sounds
     remove:
       packages:
         - tailscale
